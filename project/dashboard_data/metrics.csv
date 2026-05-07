@@ -1,0 +1,19 @@
+total_return_pct,annual_return_pct,annual_volatility_pct,sharpe_ratio,sortino_ratio,max_drawdown_pct,win_rate_pct,final_value,agent
+6.94,5.32,1.65,0.8,0.951,1.03,65.94,1069626.99,RuleBased (SMA)
+9.72,7.42,4.55,0.753,1.054,4.71,53.25,1097198.71,RuleBased (RSI)
+8.09,6.19,4.47,0.489,0.709,5.34,53.25,1081090.1,RuleBased (SMA_RSI)
+7.64,5.84,4.28,0.431,0.624,5.1,52.63,1076578.2,RuleBased (SMA_RSI_Sentiment)
+5.75,4.41,1.85,0.223,0.315,2.0,54.49,1057714.67,RuleBased (Dynamic)
+2.6,2.0,1.89,-1.062,-1.177,2.74,62.85,1026148.15,RuleBased (SentimentMomentum)
+11.1,8.46,6.65,0.67,1.007,7.83,55.42,1111153.6,RuleBased (EarningsSentiment)
+0.71,0.54,7.68,-0.45,-0.595,8.72,51.08,1006846.26,RuleBased (RegimeAdaptive)
+21.59,16.28,21.21,0.579,0.803,20.02,52.94,1214928.03,RuleBased (CrossMomentum)
+-1.54,-1.19,14.57,-0.356,-0.6,15.19,49.54,983820.82,RuleBased (SentimentRank)
+27.72,20.78,24.1,0.696,1.043,19.02,54.18,1276183.08,RuleBased (AnalystRank)
+17.92,13.56,16.89,0.566,0.906,12.53,51.7,1178192.98,RuleBased (InsiderRank)
+41.88,30.99,23.44,1.151,1.674,16.11,53.56,1417591.69,RuleBased (MetaModel)
+53.68,39.31,24.28,1.454,2.222,15.93,54.18,1535492.56,RuleBased (SentimentMeta)
+41.08,30.42,24.48,1.079,1.594,16.54,52.63,1409601.71,RuleBased (MetaModel_PWeighted)
+63.67,46.26,26.35,1.604,2.512,16.31,55.73,1635377.77,RuleBased (SentimentMeta_PWeighted)
+20.81,15.71,8.56,1.368,2.168,6.29,57.28,1207559.16,Ensemble
+21.14,15.95,17.87,0.669,0.872,18.9,56.97,1211396.41,S&P 500 Baseline

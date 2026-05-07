@@ -1,0 +1,10 @@
+# Slim root-level requirements for Streamlit Community Cloud.
+# The full dev environment is project/requirements.txt (FinRL + sklearn +
+# stable-baselines3 + 200 transitive deps). The dashboard itself only needs
+# Streamlit + Plotly + pandas + numpy — keep this list tight so the deploy
+# build stays under Streamlit Cloud's 5-minute limit.
+streamlit==1.56.0
+plotly==6.6.0
+pandas==2.2.3
+numpy==2.4.1
+graphviz==0.20.3

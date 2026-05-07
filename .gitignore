@@ -1,0 +1,43 @@
+# Secrets / credentials — keep .env.example, exclude .env
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+.idea/
+*.swp
+*.swo
+.qodo/
+.claude/
+
+# Logs / scratch
+logs/
+*.log
+results/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated / built artifacts (everything under these dirs is regenerated)
+project/results/
+project/logs/

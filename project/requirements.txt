@@ -1,0 +1,15 @@
+# Streamlit Cloud deploy requirements (slim, range-pinned).
+# Range pins (>= ... , < major+1) so pip's resolver can pick wheels that exist
+# for the active Python interpreter. Exact pins (==2.2.3 etc.) caused the
+# Python-3.14 cloud env to compile pandas from source for 30+ min — fixed
+# by also adding runtime.txt = python-3.11 at the repo root.
+#
+# The full pipeline-running dev list (FinRL, stable-baselines3, langgraph,
+# yfinance, etc) is preserved at project/requirements-dev.txt for local
+# pipeline reruns.
+
+streamlit>=1.36,<2
+plotly>=5.20,<7
+pandas>=2.0,<3
+numpy>=1.26,<3
+graphviz>=0.20,<1
